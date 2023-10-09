@@ -4,6 +4,6 @@
 ![Photo of Comfort group site ](./img/photo-of-site2.png)
 ![Photo of Comfort group site ](./img/photo-of-site3.png)
 ## Technologies used:
-* HTML, CSS, JavaScript
-* Jquery, gulp, gulpwatch
-* SCSS
+#* HTML, CSS, JavaScript
+#* Jquery, gulp, gulpwatch
+#* SCSS
