@@ -1,0 +1,63 @@
+.tooltip {
+    max-width: 238px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tooltip .tooltip__icon {
+    width: 18px;
+    height: 18px;
+    background: #4d1299;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    rotate: 45deg;
+}
+.tooltip .tooltip__icon svg {
+    width: 11px;
+    fill: #fff;
+    z-index: 9999;
+    position: relative;
+}
+.tooltip .tooltip__icon::before {
+    content: "";
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background: rgba(77, 18, 153, 0.3);
+    border-radius: 50%;
+    z-index: 1;
+}
+.tooltip .tooltip__content {
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 13px;
+}
+.tooltip.revert .tooltip__content {
+    margin-top: 25px;
+}
+.tooltip.revert .tooltip__content::after {
+    top: -9px;
+    rotate: 180deg;
+}
+.tooltip .tooltip__content::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    position: absolute;
+    bottom: -9px;
+    left: calc(50% - 10px);
+    z-index: 1;
+}
