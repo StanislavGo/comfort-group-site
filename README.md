@@ -1,5 +1,5 @@
 # Comfort-group-site
-## https://stanislavgo.github.io/Comfort-Group-site/
+## https://stanislavgo.github.io/comfort-group-site/
 ![Photo of Comfort group site ](./img/photo-of-site1.png)
 ![Photo of Comfort group site ](./img/photo-of-site2.png)
 ![Photo of Comfort group site ](./img/photo-of-site3.png)
